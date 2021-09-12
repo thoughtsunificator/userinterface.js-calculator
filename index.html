@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>userinterface.js-calculator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./resource/calculator.css">
+	<link rel="stylesheet" href="./lib/css-generics/import.css">
+	<script src="./lib/userinterface.js/src/userinterface.js"></script>
+	<script type="text/javascript">
+		calculator = {}
+	</script>
+	<script src="./data/layout.js"></script>
+	<script src="./src/object/calculator.js"></script>
+	<script src="./src/userinterface/calculator.js"></script>
+	<script src="./src/userinterface/calculator.binding.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/button.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		UserInterface.runModel("calculator", {parentNode: document.body})
+	</script>
+</body>
+</html>
